@@ -1,0 +1,48 @@
+@font-face {
+  font-weight: 400;
+  font-family: "Lato";
+  font-style: normal;
+
+  font-display: swap;
+  src: local("Lato Regular"), local("Lato-Regular"),
+  url("./assets/fonts/lato-v14-latin-regular.woff2") format("woff2"),
+  url("./assets/fonts/lato-v14-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Lato";
+  font-style: normal;
+
+  font-display: swap;
+  src: local("Lato Bold"), local("Lato-Bold"),
+  url("./assets/fonts/lato-v14-latin-700.woff2") format("woff2"),
+  url("./assets/fonts/lato-v14-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 900;
+  font-family: "Lato";
+  font-style: normal;
+
+  font-display: swap;
+  src: local("Lato Black"), local("Lato-Black"),
+  url("./assets/fonts/lato-v14-latin-900.woff2") format("woff2"),
+  url("./assets/fonts/lato-v14-latin-900.woff") format("woff");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Maven Pro";
+  font-style: normal;
+
+  font-display: swap;
+  src: local("Maven Pro Regular"), local("MavenPro-Regular"),
+  url("./assets/fonts/maven-pro-v11-latin-regular.woff2") format("woff2"),
+  url("./assets/fonts/maven-pro-v11-latin-regular.woff") format("woff");
+}
+
+body {
+  font-size: 12px;
+  font-family: "Lato", Arial, sans-serif;
+}
