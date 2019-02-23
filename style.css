@@ -198,3 +198,70 @@ img {
   color: hsl(168, 59%, 75%);
 }
 
+.about {
+  background-color: #2eb398;
+}
+
+.about__inner {
+  position: relative;
+
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.about__inner::after,
+.about__inner::before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  right: 100px;
+
+  width: 1px;
+  height: 316px;
+
+  background-color: #219d84;
+}
+
+.about__inner::before {
+  left: 100px;
+}
+
+.about__figure {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+
+  font-family: "Maven Pro", Arial, sans-serif;
+  color: #d7fcf5;
+}
+
+.about__figcaption {
+  position: relative;
+
+  max-width: 73.5%;
+}
+
+.about__author-name {
+  margin: 0;
+  margin-top: 60px;
+
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.about__author-position {
+  font-weight: 400;
+  font-size: 18px;
+  color: #20816d;
+}
+
+.about__author-info {
+  margin: 0;
+  margin-top: 10px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21.56px;
+  font-family: "Lato", Arial, sans-serif;
+  text-indent: 1px;
+}
