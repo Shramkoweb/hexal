@@ -186,3 +186,15 @@ img {
 .main-nav__link--logo img {
   margin: 0 auto;
 }
+
+.main-nav__link--current {
+  color: #2eb398;
+
+  cursor: default;
+}
+
+.main-nav__link:hover:not(.main-nav__link--current),
+.main-nav__link:focus:not(.main-nav__link--current) {
+  color: hsl(168, 59%, 75%);
+}
+
