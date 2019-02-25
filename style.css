@@ -267,7 +267,23 @@ img {
 }
 
 .portfolio {
+  position: relative;
+
   padding-top: 90px;
+  padding-bottom: 85px;
+}
+
+.portfolio::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+
+  width: 960px;
+  height: 1px;
+
+  background-color: #e4e9eb;
+  transform: translateX(-50%);
+  bottom: 11px;
 }
 
 .hexa,
@@ -315,12 +331,12 @@ img {
 .portfolio__list::after {
   content: "";
   position: absolute;
+  top: 50%;
 
   width: 1px;
   height: 104px;
 
   background-color: #e4e9eb;
-  top: 50%;
   transform: translateY(-50%);
 }
 
@@ -348,4 +364,40 @@ img {
 .portfolio__row--different::before,
 .portfolio__row--different::after {
   content: none;
+}
+
+.crumbs {
+  position: absolute;
+  bottom: 23px;
+  left: 32px;
+}
+
+.crumbs__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.crumbs__item {
+  margin-right: 3px;
+}
+
+.crumbs__link {
+  display: block;
+  width: 6px;
+  height: 6px;
+
+  background-color: #ddd2c5;
+}
+
+.crumbs__link:hover {
+  transform: scale(1.5);
+
+  transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.crumbs__link--current {
+  background-color: #8b8784;
 }
