@@ -232,6 +232,7 @@ img {
   display: flex;
   justify-content: flex-end;
   margin: 0;
+  padding-top: 60px;
 
   font-family: "Maven Pro", Arial, sans-serif;
   color: #d7fcf5;
@@ -245,7 +246,6 @@ img {
 
 .about__author-name {
   margin: 0;
-  margin-top: 60px;
 
   font-weight: 400;
   font-size: 30px;
@@ -402,4 +402,9 @@ img {
 
 .crumbs__link--current {
   background-color: #8b8784;
+}
+
+
+.hexa--author {
+  margin-top: 7px;
 }
