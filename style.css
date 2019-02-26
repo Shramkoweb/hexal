@@ -201,6 +201,8 @@ img {
 }
 
 .about {
+  padding-bottom: 66px;
+
   background-color: #2eb398;
 }
 
@@ -260,6 +262,7 @@ img {
 .about__author-info {
   margin: 0;
   margin-top: 10px;
+  padding-bottom: 45px;
 
   font-weight: 400;
   font-size: 12px;
@@ -407,4 +410,51 @@ img {
 
 .hexa--author {
   margin-top: 7px;
+}
+
+.social__list {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  margin-top: -26px;
+  padding: 0;
+  padding-right: 120px;
+
+  list-style: none;
+}
+
+.social__link {
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.social__link:hover,
+.social__link:focus {
+  opacity: 0.5;
+  transform: translateY(-5px);
+}
+
+.social__link--facebook {
+  background-image: url("./assets/images/Facebook.jpg");
+}
+
+.social__link--twitter {
+  background-image: url("./assets/images/Twitter.jpg");
+}
+
+.social__link--google {
+  background-image: url("./assets/images/Google.jpg");
+}
+
+.social__link--pinterest {
+  background-image: url("./assets/images/Pinterest.jpg");
+}
+
+.social__link--linkedin {
+  background-image: url("./assets/images/Linkedin.jpg");
+}
+
+.social__link--drible {
+  background-image: url("./assets/images/Dribbble.jpg");
 }
