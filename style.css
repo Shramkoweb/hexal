@@ -370,8 +370,8 @@ img {
 
 .crumbs {
   position: absolute;
-  bottom: 23px;
-  left: 32px;
+  bottom: -62px;
+  left: 30px;
 }
 
 .crumbs__list {
