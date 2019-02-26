@@ -74,6 +74,8 @@ img {
 }
 
 .container {
+  position: relative;
+
   max-width: 1020px;
   margin: 0 auto;
 }
@@ -276,6 +278,7 @@ img {
 .portfolio::after {
   content: "";
   position: absolute;
+  bottom: 11px;
   left: 50%;
 
   width: 960px;
@@ -283,7 +286,6 @@ img {
 
   background-color: #e4e9eb;
   transform: translateX(-50%);
-  bottom: 11px;
 }
 
 .hexa,
