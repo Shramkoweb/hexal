@@ -97,11 +97,27 @@ img {
 }
 
 .page-header {
+  position: relative;
   font-weight: 700;
   font-size: 10px;
   text-transform: uppercase;
 
   background-color: #323232;
+}
+
+.page-header::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+
+  width: 0;
+  height: 0;
+
+  border-width: 26px 44px 0 44px;
+  border-style: solid;
+  border-color: #323232 transparent transparent transparent;
+  transform: translateX(-50%);
 }
 
 .main-nav__list {
@@ -155,20 +171,6 @@ img {
 
   min-width: 138px;
   margin: 0;
-}
-
-.main-nav__item--logo::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-
-  width: 0;
-  height: 0;
-
-  border-width: 26px 44px 0 44px;
-  border-style: solid;
-  border-color: #323232 transparent transparent transparent;
-  transform: translateX(-50%);
 }
 
 .main-nav__link {
@@ -431,8 +433,8 @@ img {
 
 .social__link:hover,
 .social__link:focus {
-
   transform: scale(1.3);
+
   transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
