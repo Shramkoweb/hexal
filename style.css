@@ -169,9 +169,9 @@ img {
 
   width: 3px;
   height: 3px;
-  transform: translateY(150%);
 
   background-color: #474c5f;
+  transform: translateY(150%);
 }
 
 .main-nav__item:nth-of-type(4)::after {
@@ -182,9 +182,9 @@ img {
 
   width: 3px;
   height: 3px;
-  transform: translateY(100%);
 
   background-color: #474c5f;
+  transform: translateY(100%);
 }
 
 .main-nav__item--blog {
@@ -307,6 +307,7 @@ img {
 
   padding-top: 90px;
   padding-bottom: 89px;
+  overflow: hidden;
 }
 
 .portfolio::after {
@@ -489,4 +490,114 @@ img {
 
 .social__link--drible {
   background-image: url("./assets/images/Dribbble.png");
+}
+
+.page-footer {
+  position: relative;
+
+  background-color: #323232;
+}
+
+.page-footer::before,
+.page-footer::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+
+  width: 960px;
+  height: 1px;
+
+  background-color: #2b2b2b;
+  transform: translateX(-50%);
+}
+
+.page-footer::before {
+  top: 14px;
+}
+
+.page-footer::after {
+  bottom: 14px;
+}
+
+.page-footer__inner {
+  display: flex;
+  padding-top: 60px;
+  padding-right: 120px;
+  padding-bottom: 65px;
+  padding-left: 120px;
+}
+
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+
+  border: none;
+}
+
+.form-wrapper {
+  flex-grow: 1;
+  min-width: 580px;
+}
+
+.form__legend {
+  font-weight: 400;
+  font-size: 30px;
+  font-family: "Maven Pro";
+  color: #e0e0e0;
+}
+
+.form__subtitle {
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  font-family: "Maven Pro";
+  color: #bebebe;
+}
+
+.form__textarea,
+.form__input {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 12px 15px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  color: #bebebe;
+
+  background-color: #454545;
+  border: none;
+}
+
+.form__button {
+  min-width: 90px;
+  margin-left: auto;
+  margin-left: auto;
+  padding: 8px 10px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21.56px;
+  font-family: inherit;
+  text-align: center;
+  color: #d7fcf5;
+  text-transform: uppercase;
+
+  background-color: #2eb398;
+  border: none;
+  ;
+}
+
+.form__textarea {
+  margin-bottom: 12px;
+  padding-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
 }
