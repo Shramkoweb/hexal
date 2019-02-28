@@ -569,7 +569,9 @@ img {
   font-weight: 400;
   font-size: 12px;
   line-height: 1;
+  font-family: "Lato", Arial, sans-serif;
   color: #bebebe;
+  letter-spacing: -0.5px;
 
   background-color: #454545;
   border: none;
