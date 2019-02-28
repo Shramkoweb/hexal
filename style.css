@@ -1,7 +1,7 @@
 @font-face {
-  font-style: normal;
   font-weight: 400;
   font-family: "Lato";
+  font-style: normal;
 
   font-display: swap;
   src: local("Lato Regular"), local("Lato-Regular"),
@@ -10,9 +10,9 @@
 }
 
 @font-face {
-  font-style: normal;
   font-weight: 700;
   font-family: "Lato";
+  font-style: normal;
 
   font-display: swap;
   src: local("Lato Bold"), local("Lato-Bold"),
@@ -21,9 +21,9 @@
 }
 
 @font-face {
-  font-style: normal;
   font-weight: 900;
   font-family: "Lato";
+  font-style: normal;
 
   font-display: swap;
   src: local("Lato Black"), local("Lato-Black"),
@@ -32,9 +32,9 @@
 }
 
 @font-face {
-  font-style: normal;
   font-weight: 400;
   font-family: "Maven Pro";
+  font-style: normal;
 
   font-display: swap;
   src: local("Maven Pro Regular"), local("MavenPro-Regular"),
@@ -287,19 +287,21 @@ img {
 .about__author-position {
   font-weight: 400;
   font-size: 18px;
+  line-height: 1;
   color: #20816d;
 }
 
 .about__author-info {
   margin: 0;
   margin-top: 10px;
+  margin-top: 14px;
+  margin-left: 2.2px;
   padding-bottom: 45px;
 
   font-weight: 400;
   font-size: 12px;
-  line-height: 21.56px;
+  line-height: 21.5px;
   font-family: "Lato", Arial, sans-serif;
-  text-indent: 1px;
 }
 
 .portfolio {
