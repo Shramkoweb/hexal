@@ -595,6 +595,8 @@ img {
 .form__textarea {
   margin-bottom: 12px;
   padding-bottom: 20px;
+
+  resize: none;
 }
 
 .form {
