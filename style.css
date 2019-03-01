@@ -703,3 +703,56 @@ img {
   color: #454545;
   letter-spacing: 1px;
 }
+
+@media (max-width: 1000px) {
+  .page-footer__inner {
+    flex-direction: column;
+  }
+
+  .portfolio__grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio__row {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio__row--different {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  *::before,
+  *::after {
+    display: none;
+  }
+
+  .form-wrapper {
+    min-width: 100%;
+  }
+
+  .portfolio__item {
+    margin: 0;
+  }
+
+  .page-footer__inner,
+  .about__inner {
+    padding: 25px 60px;
+  }
+
+  .about__figure {
+    flex-direction: column;
+  }
+
+  .main-nav__item--logo {
+    min-width: auto;
+  }
+
+  .main-nav__link--logo {
+    margin: auto;
+    padding-top: 0;
+  }
+}
