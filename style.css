@@ -336,6 +336,14 @@ img {
 
 .hexa {
   transform: rotate(120deg);
+  cursor: pointer;
+}
+
+.hexa:hover  img {
+  transform: scale(0.9);
+  filter: grayscale(100%);
+
+  transition: 0.15s linear;
 }
 
 .hexa  img {
