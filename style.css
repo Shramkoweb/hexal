@@ -496,8 +496,8 @@ img {
   background-color: #323232;
 }
 
-.page-footer::before,
-.page-footer::after {
+.page-footer__inner::before,
+.page-footer__inner::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -509,12 +509,12 @@ img {
   transform: translateX(-50%);
 }
 
-.page-footer::before {
+.page-footer__inner::before {
   top: 14px;
 }
 
-.page-footer::after {
-  bottom: 14px;
+.page-footer__inner::after {
+  bottom: 10px;
 }
 
 .page-footer__inner {
@@ -688,10 +688,10 @@ img {
   margin: 0;
   padding: 18px 0;
   padding-left: 20px;
-  letter-spacing: 1px;
 
   font-size: 12px;
   line-height: 6.3px;
   font-family: "Maven Pro", Arial, sans-serif;
   color: #454545;
+  letter-spacing: 1px;
 }
