@@ -555,6 +555,7 @@ img {
 }
 
 .form__subtitle {
+  margin: 0;
   margin-bottom: 20px;
 
   font-weight: 400;
