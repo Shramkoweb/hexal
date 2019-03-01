@@ -678,3 +678,20 @@ img {
 
   background-image: url("./assets/images/mail.png");
 }
+
+
+.copyright {
+  background-color: #222222;
+}
+
+.copyright__text {
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 20px;
+  letter-spacing: 1px;
+
+  font-size: 12px;
+  line-height: 6.3px;
+  font-family: "Maven Pro", Arial, sans-serif;
+  color: #454545;
+}
