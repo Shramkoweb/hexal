@@ -166,7 +166,7 @@ img {
   content: "";
   position: absolute;
   top: 50%;
-  right: -17px;
+  right: -40%;
 
   width: 3px;
   height: 3px;
@@ -183,13 +183,13 @@ img {
   content: "";
   position: absolute;
   top: 50%;
-  right: -17px;
+  left: -40%;
 
   width: 3px;
   height: 3px;
 
   background-color: #474c5f;
-  transform: translateY(150%);
+  transform: translateY(100%);
 }
 
 .main-nav__item--logo {
