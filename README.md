@@ -1,1 +1,1 @@
-# Homework: Hexal for [The Rolling Scopes School'EPAM'](https://school.rollingscopes.com/ "RSS site")
+# Homework: Hexal for [The Rolling Scopes School'EPAM'](https://rs.school/ "RSS site")
